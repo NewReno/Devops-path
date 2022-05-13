@@ -6,8 +6,6 @@
 ## Docker
 * Commands
 * Courses
-## DB
 ## Coding
-* Django
 * Python
-## AWS
+* Bash
