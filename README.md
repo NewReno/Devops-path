@@ -3,9 +3,8 @@
 ## Git
 * Markdown
 ## Linux
+## Cloud
+* yandex
 ## Docker
 * Commands
 * Courses
-## Coding
-* Python
-* Bash
