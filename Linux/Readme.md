@@ -7,6 +7,8 @@ type $env:USERPROFILE\.ssh\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} "cat >> .ssh/au
 chmod go-w /home/user
 chmod 700 /home/user/.ssh
 chmod 600 /home/user/.ssh/authorized_keys
+chmod 600 /home/tony/.ssh/config
+
 ```
 ### keygen SSH keys
 ```
