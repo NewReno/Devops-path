@@ -1,3 +1,3 @@
 * Python
 * Django
-* Nodejs
+* Bash

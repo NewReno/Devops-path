@@ -1,63 +1,32 @@
 # Git
-### Change directory to codebase
-```
-$ cd /file/path/to/code
-```
-
-### Change disk in winOS
-```
- cd /D
- ```
-
 ### Make directory a git repository
 ```
 $ git init
-```
-
-### Add git file or directory
-```
-git add <file or directory name>
-```
-### Add all
-```
-git add .
-```
-
-### Commit changes to head (but not yet to the remote repository):
-```
-git commit -m "Commit message"
 ```
 ### Commit any files you've added with git add, and also commit any files you've changed since then:
 ```
 git commit -a
 ```
-
 ### Verify new remote
 ```
 git remote -v
 ```
-
 ### Add new remote
 ```
 git remote add origin ssh://git@example.com:1234/myRepo.git
-```
-
 if you're updating to use HTTPS, your URL might look like:
 https[]()://github.com/USERNAME/REPOSITORY.git  
 If you're updating to use SSH, your URL might look like:
 git[]()@github.com:USERNAME/REPOSITORY.git
-
-
+```
 ### Switching remote URLs from SSH to HTTPS
 ```
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 ```
-
 ### Switching remote URLs from HTTPS to SSH
 ```
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
-
 ### Send changes to the master branch of your remote repository:	
 ```
 git push origin master
@@ -66,13 +35,6 @@ git push origin master
 ```
 ssh -T git@github.com
 ```
-
-### keygen SSH keys
-```
-ssh-keygen -t rsa -b 4096 -C "mail@mail.com"
-```
-
-
 ### difference
 ```
 git diff
